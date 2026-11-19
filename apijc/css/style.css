@@ -1,0 +1,35 @@
+/* Estilos personalizados adicionales sobre Bootstrap 5 */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Transición suave para filas de la tabla */
+.table tbody tr {
+    transition: background-color 0.15s ease-in-out;
+}
+
+/* Hover en las tarjetas */
+.card {
+    border-radius: 0.75rem;
+    overflow: hidden;
+}
+
+/* Formato para el visor JSON o detalles en modal */
+pre.json-viewer {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    max-height: 350px;
+    overflow-y: auto;
+    font-size: 0.875rem;
+}
+
+/* Paginación / Badges */
+.badge {
+    font-weight: 500;
+}
